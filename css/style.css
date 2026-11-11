@@ -2316,15 +2316,20 @@ main {
 
 @media (max-width: 600px) {
   .site-header {
-    padding: 12px 8px;
-    gap: 8px;
+    padding: 12px 5px;
+    gap: 5px;
   }
-
+  .site-header nav {
+    width: 100%;
+    overflow-x: auto;
+  }
   .nav-list {
-    gap: 8px;
+    width: max-content;
+    gap: 10px;
+    margin: 0 auto;
   }
 
   .nav-list a {
-    font-size: 11px;
+    font-size: 10px;
   }
 }
