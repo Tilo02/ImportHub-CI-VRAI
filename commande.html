@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Passez votre commande en ligne sur ImportHub CI."
+    />
+    <title>ImportHub CI - Commander</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+     <!-- Bannière promotionnelle -->
+    <div class="christmas-banner">
+      <p>
+        🎄 C’est bientôt les fêtes de Noël, profitez des offres promos et
+        importez à frais réduits !
+      </p>
+      <div class="banner-infos">
+        <span>✓ Produits vérifiés avant expédition</span>
+        <span>✓ Adresse de livraison CI : +225 07 00 00 00 00</span>
+         </div>
+      </div>
+    <!-- En-tête -->
+    <header class="site-header">
+      <a href="index.html" class="logo"> Import<span>Hub</span>-<span>CI</span> </a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="guide.html">Guide d'importation</a></li>
+          <li><a href="commande.html">Commander</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contenu principal -->
+    <main class="order-section">
+      <div class="order-heading">
+        <h1>Passer une commande</h1>
+        <p>
+          Vous avez trouvé votre bonheur ? Remplissez le formulaire ci-dessous
+          pour préparer votre commande.
+        </p>
+      </div>
+
+      <div class="order-card">
+        <div class="order-card-heading">
+          <h2>Vos informations</h2>
+          <p>Les champs marqués d'un astérisque (*) sont obligatoires.</p>
+        </div>
+
+        <form action="#" method="post" class="order-form">
+          <div class="order-fields">
+            <div class="form-group">
+              <label for="nom">Nom complet *</label>
+              <input
+                type="text"
+                id="nom"
+                name="nom"
+                placeholder="Ex. : Grace Nondigui"
+                autocomplete="name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Adresse e-mail *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="exemple@email.com"
+                autocomplete="email"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="telephone">Numéro de téléphone *</label>
+              <input
+                type="tel"
+                id="telephone"
+                name="telephone"
+                placeholder="Ex. : 07 00 00 00 00"
+                autocomplete="tel"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="produit">Produit souhaité *</label>
+              <select id="produit" name="produit" required>
+                <option value="">-- Sélectionnez un produit --</option>
+
+                <optgroup label="Hightech">
+                  <option value="iphone-15">Apple iPhone 15</option>
+                  <option value="samsung-s24">Samsung Galaxy S24</option>
+                  <option value="galaxy-buds3">Samsung Galaxy Buds3</option>
+                  <option value="apple-watch">Apple Watch</option>
+                  <option value="lenovo-thinkpad">Lenovo ThinkPad</option>
+                </optgroup>
+
+                <optgroup label="Électroménager">
+                  <option value="blender">Mixeur Illux</option>
+                  <option value="machine-a-laver">
+                    Machine à laver Hisense
+                  </option>
+                  <option value="fer-a-repasser">
+                    Fer à repasser vapeur sans fil
+                  </option>
+                  <option value="micro-ondes">Micro-ondes</option>
+                  <option value="congelateur">Congélateur Illux</option>
+                </optgroup>
+
+                <optgroup label="Hygiène et beauté">
+                  <option value="roger-cavailles">Roger Cavaillès</option>
+                  <option value="tondeuse">Tondeuse</option>
+                  <option value="perruque-bresilienne">
+                    Perruque brésilienne
+                  </option>
+                  <option value="victoria-secret">
+                    Brume Victoria's Secret
+                  </option>
+                  <option value="la-roche-posay">Crème La Roche-Posay</option>
+                </optgroup>
+
+                <optgroup label="Agriculture et élevage">
+                  <option value="pulverisateur">
+                    Pulvérisateur électrique
+                  </option>
+                  <option value="couveuse">Couveuse automatique</option>
+                  <option value="abreuvoir">Abreuvoir automatique</option>
+                  <option value="atomiseur">Atomiseur</option>
+                  <option value="humidimetre">Humidimètre de sol</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="quantite">Quantité *</label>
+              <input
+                type="number"
+                id="quantite"
+                name="quantite"
+                min="1"
+                max="100"
+                value="1"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="pays">Pays d'origine souhaité</label>
+              <select id="pays" name="pays">
+                <option value="">À préciser</option>
+                <option value="Chine">Chine</option>
+                <option value="France">France</option>
+                <option value="Turquie">Turquie</option>
+                <option value="Etats-Unis">États-Unis</option>
+                <option value="Coree-du-Sud">Corée du Sud</option>
+                <option value="Cote-Ivoire">Côte d'Ivoire</option>
+              </select>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="adresse">Adresse de livraison *</label>
+              <textarea
+                id="adresse"
+                name="adresse"
+                rows="4"
+                placeholder="Indiquez votre commune, quartier, rue et tout repère utile..."
+                autocomplete="street-address"
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="precision">Informations complémentaires</label>
+              <textarea
+                id="precision"
+                name="precision"
+                rows="3"
+                placeholder="Précisions sur votre commande (facultatif)..."
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="order-notice">
+            <p>
+              <strong>Information :</strong> les prix affichés sur notre
+              catalogue sont indicatifs. Les modalités et frais de livraison
+              seront à confirmer.
+            </p>
+          </div>
+
+          <button type="submit" class="btn order-submit">
+            Valider la commande
+          </button>
+        </form>
+      </div>
+
+      <p class="order-back">
+        <a href="catalogue.html">← Retourner au catalogue</a>
+      </p>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            Import<span>Hub</span>-<span>CI</span>
+          </a>
+          <p>
+            Votre plateforme de commande et d'importation de produits en Côte
+            d'Ivoire.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="catalogue.html">Catalogue</a></li>
+            <li><a href="guide.html">Guide d'importation</a></li>
+            <li><a href="commande.html">Commander</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <p>
+            Pour toute question concernant vos commandes, consultez notre page
+            contact.
+          </p>
+          <a href="contact.html" class="footer-contact-link">
+            Nous contacter
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+       <p>&copy; 2026 ImportHub CI. Tous droits réservés.</p>
+        <p>Votre monde, notre sélection.</p>
+      </div>
+    </footer>
+  </body>
+</html>
