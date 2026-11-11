@@ -62,10 +62,24 @@ main {
 
 .nav-list {
   display: flex;
-  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 20px;
   list-style: none;
   margin: 0;
   padding: 0;
+  white-space: nowrap;
+}
+
+.nav-list li {
+  flex-shrink: 0;
+}
+
+.nav-list a {
+  color: var(--blanc);
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .nav-list a {
@@ -2294,5 +2308,23 @@ main {
 @media (max-width: 400px) {
   .products-grid {
     grid-template-columns: 1fr;
+  }
+}
+/* =========================================
+   CORRECTION NAVIGATION SUR TELEPHONE APRES TEST
+========================================= */
+
+@media (max-width: 600px) {
+  .site-header {
+    padding: 12px 8px;
+    gap: 8px;
+  }
+
+  .nav-list {
+    gap: 8px;
+  }
+
+  .nav-list a {
+    font-size: 11px;
   }
 }
