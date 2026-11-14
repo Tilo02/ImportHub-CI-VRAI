@@ -2,8 +2,8 @@ IMPORTHUB CI
 
 1. INFORMATIONS GENERALE
 
-Nom du projet: PROJET 1: ImportHub CI
-GROUPE: 1
+Nom du projet: PROJET 01: ImportHub CI
+GROUPE: A-G1
 MEMBRES DU GROUPE:
 - KONE Falikou Sindou
 - AKANNI Jocelyne Mireille Olive-Anne
