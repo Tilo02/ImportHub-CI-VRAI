@@ -1,0 +1,54 @@
+IMPORTHUB CI
+
+1. INFORMATIONS GENERALE
+
+Nom du projet: PROJET 1: ImportHub CI
+GROUPE: 1
+MEMBRES DU GROUPE:
+- KONE Falikou Sindou
+- AKANNI Jocelyne Mireille Olive-Anne
+- NONDIGUI Tilôma Grace
+- ZON Pena Alexandre
+- BAIKORO Chélé Hassan
+
+2. SUJET TRAITE
+
+ImportHub CI est un site web vitrine responsive qui présente une
+sélection de produits importés, organisés en catégories, avec leurs
+caractéristiques et un guide expliquant les grandes étapes d'une
+importation. Il permet aussi de simuler une demande de commande.
+Les différentes catégories de produits sont : Informatique et technologie ; électroménager ; beauté et hygiène ; agriculture et élevage.
+Les prix affichés sont indicatifs.
+
+Pour réaliser ce travail, nous avons utilisé: 
+HTML5 : structure des pages web
+CSS3 : mise en forme et présentation visuelle du site
+Git et GitHub : gestion et hébergement du code source
+GitHub Pages : mise en ligne du site
+
+Le projet est organisé de la manière suivante :
+
+- index.html : page d'accueil
+- catalogue.html : présentation des différentes catégories et produits
+- guide.html : guide d'importation
+- commande.html : page de la simulation de commande
+- contact.html : page de contact
+- produits : dossier contenant les détails de chaque produit
+- css : fichier de la mise en forme
+- images : dossier contenant les images utilisées sur le site organisées en quatre grandes catégories
+- LISEZMOI.txt: détails du projet et instructions pour ouvrir le site
+ 3. INSTRUCTIONS POUR OUVRIR LE SITE
+
+Méthode 1 : Accès en ligne
+
+- Disposer d'une connexion Internet
+- Ouvrir un navigateur web (Google Chrome, Microsoft Edge ou Firefox)
+- Saisir ou ouvrir le lien suivant : https://tilo02.github.io/ImportHub-CI-VRAI/
+
+Méthode 2 : Ouverture en local
+
+- Télécharger ou copier le dossier du projet sur l'ordinateur
+- Décompresser le dossier
+- Ouvrir le dossier
+- Repérer le fichier index.html
+- Double-cliquer sur ce fichier pour ouvrir le site dans un navigateur

@@ -1500,7 +1500,7 @@ main {
 }
 
 /* =========================================
-   NOUVELLE IDENTITÉ VISUELLE IMPORTHUB CI
+   NOUVELLE IDENTITÉ VISUELLE IMPORTHUB CI APRES PROPOSITION D'UN MEMBRE DU GROUPE ET CONCERTATION AVEC TOUT LE GROUPE
 ========================================= */
 
 :root {
@@ -2341,7 +2341,7 @@ main {
   }
 }
 /* =========================================
-   CORRECTION NAVIGATION SUR TELEPHONE APRES TEST
+   CORRECTION NAVIGATION SUR TELEPHONE APRES TEST ("Contact" sur le navbar débordait")
 ========================================= */
 
 @media (max-width: 600px) {
